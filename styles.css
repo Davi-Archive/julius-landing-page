@@ -1,15 +1,17 @@
 body {
     margin: 0;
+    background-color: gainsboro;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .logo {
     font-size: 30px;
-    
+    text-shadow: 1px 1px 0 gainsboro;
 }
 
 header {
     height: 88px;
-    background-color: #3e3e48;
+    background-color: #121214;
     color: #737380;
     display: flex;
     align-items: center;
@@ -21,19 +23,22 @@ header {
 }
 
 .navbarContainer li {
-    width:50px;
-    padding: 10px 26px;
+    width:auto;
+    height: auto;
+    padding: 10px 40px;
     list-style: none;
     font-weight: bold;
 }
 
 .navbarContainer li:hover {
+    background-color: gainsboro;
+    border-radius: 5px;
     transition: all .2s ease;
     transition-duration: 0.2s;
     transition-timing-function: ease;
     transition-delay: 0s;
     transition-property: all;
-    border-bottom: 1px solid grey;
+    
 
     
 }
