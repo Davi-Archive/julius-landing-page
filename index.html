@@ -16,56 +16,314 @@
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
   </head>
   <body>
-    <video autoplay muted loop id="bg-video">
+    <!-- <video autoplay muted loop id="bg-video">
       <source src="assets/timelapse.mp4" type="video/mp4" />
-    </video>
-    <header>
-      <div class="logo">
-        <p>Julius Blog</p>
+    </video> -->
+    <div class="page-container">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="cd-slider-nav">
+              <nav class="navbar navbar-expand-lg" id="tm-nav">
+                <a class="navbar-brand" href="#">Julius Project</a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbar-supported-content"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbar-supported-content"
+                >
+                  <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item selected">
+                      <a
+                        class="nav-link"
+                        aria-current="page"
+                        href="#0"
+                        data-no="1"
+                        >Home</a
+                      >
+                      <div class="circle"></div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#0" data-no="2">Galeria</a>
+                      <div class="circle"></div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#0" data-no="3">Sobre</a>
+                      <div class="circle"></div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#0" data-no="4">Contato</a>
+                      <div class="circle"></div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
       </div>
-      <nav class="navbarContainer">
-        <ul id="navList">
-          <li>Home</li>
-          <li>Contato</li>
-          <li>Sobre</li>
+      <div class="container-fluid tm-content-container">
+        <ul class="cd-hero-slider mb-0 py-5">
+          <li class="px-3" data-page-no="1">
+            <div class="page-width-1 page-left">
+              <div
+                class="d-flex position-relative tm-border-top tm-border-bottom intro-container"
+              >
+                <div class="intro-left tm-bg-dark">
+                  <h2 class="mb-4">Seja bem vindo ao projeto Julius!</h2>
+                  <p class="mb-4">
+                    Nosso projeto tem como objetivo melhorar o conhecimento
+                    financeiro das pessoas, e com isso melhorar sua qualidade de
+                    vida e criar muitos novos sorrisos!
+                  </p>
+                  <p class="mb-0">
+                    Conforme foi divulgado na pesquisa do Banco Central de 2022,
+                    nos últimos doze meses, o volume de crédito concedido pelas
+                    instituições financeiras aumentou 18,2%, o que mostra que os
+                    brasileiros estão cada vez mais
+                    <strong>endividados.</strong>
+                  </p>
+                </div>
+                <div class="intro-right">
+                  <img
+                  src="assets/home-img-1.jpg"
+                    alt="Image"
+                    class="img-fluid intro-img-1"
+                  />
+                  <img
+                    src="assets/home-img-2.jpg"
+                    alt="Image"
+                    class="img-fluid intro-img-2"
+                  />
+                </div>
+                <div class="circle intro-circle-1"></div>
+                <div class="circle intro-circle-2"></div>
+                <div class="circle intro-circle-3"></div>
+                <div class="circle intro-circle-4"></div>
+              </div>
+              <div class="text-center">
+                <a
+                  href="#0"
+                  data-page-no="2"
+                  class="btn btn-primary tm-intro-btn tm-page-link"
+                >
+                  Ver Galeria
+                </a>
+              </div>
+            </div>
+          </li>
+          <li data-page-no="2">
+            <!-- Image Carousel -->
+            <div class="mx-auto position-relative gallery-container">
+              <div class="circle intro-circle-1"></div>
+              <div class="circle intro-circle-2"></div>
+              <div class="mx-auto tm-border-top gallery-slider">
+                <figure class="effect-julia item">
+                  <img src="assets/gallery-img-01.jpg" alt="Image" />
+                  <figcaption>
+                    <div>
+                      <p>Ela é Julius!</p>
+                    </div>
+                    <a href="#">Veja mais</a>
+                  </figcaption>
+                </figure>
+                <figure class="effect-julia item">
+                  <img src="assets/gallery-img-02.jpg" alt="Image" />
+                  <figcaption>
+                    <div>
+                      <p>Dias mais claros!</p>
+                    </div>
+                    <a href="#">Veja mais</a>
+                  </figcaption>
+                </figure>
+                <figure class="effect-julia item">
+                  <img src="assets/gallery-img-03.jpg" alt="Image" />
+                  <figcaption>
+                    <div>
+                      <p>Julia dances in the deep dark</p>
+                    </div>
+                    <a href="#">Veja mais</a>
+                  </figcaption>
+                </figure>
+                <figure class="effect-julia item">
+                  <img src="assets/gallery-img-04.jpg" alt="Image" />
+                  <figcaption>
+                    <div>
+                      <p>Julia dances in the deep dark</p>
+                    </div>
+                    <a href="#">Veja mais</a>
+                  </figcaption>
+                </figure>
+                <figure class="effect-julia item">
+                  <img src="assets/gallery-img-05.jpg" alt="Image" />
+                  <figcaption>
+                    <div>
+                      <p>Julia dances in the deep dark</p>
+                    </div>
+                    <a href="#">Veja mais</a>
+                  </figcaption>
+                </figure>
+                <figure class="effect-julia item">
+                  <img src="assets/gallery-img-06.jpg" alt="Image" />
+                  <figcaption>
+                    <div>
+                      <p>Julia dances in the deep dark</p>
+                    </div>
+                    <a href="#">Veja mais</a>
+                  </figcaption>
+                </figure>
+                <figure class="effect-julia item">
+                  <img src="assets/gallery-img-07.jpg" alt="Image" />
+                  <figcaption>
+                    <div>
+                      <p>Julia dances in the deep dark</p>
+                    </div>
+                    <a href="#">Veja mais</a>
+                  </figcaption>
+                </figure>
+                <figure class="effect-julia item">
+                  <img src="assets/gallery-img-08.jpg" alt="Image" />
+                  <figcaption>
+                    <div>
+                      <p>Julia dances in the deep dark</p>
+                    </div>
+                    <a href="#">Veja mais</a>
+                  </figcaption>
+                </figure>
+                <figure class="effect-julia item">
+                  <img src="assets/gallery-img-09.jpg" alt="Image" />
+                  <figcaption>
+                    <div>
+                      <p>Julia dances in the deep dark</p>
+                    </div>
+                    <a href="#">Veja mais</a>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </li>
+          <li data-page-no="3" class="px-3">
+            <div
+              class="position-relative page-width-1 page-right tm-border-top tm-border-bottom"
+            >
+              <div class="circle intro-circle-1"></div>
+              <div class="circle intro-circle-2"></div>
+              <div class="circle intro-circle-3"></div>
+              <div class="circle intro-circle-4"></div>
+              <div class="tm-bg-dark content-pad">
+                <h2 class="mb-4">Sobre Nosso Projeto</h2>
+                <p class="mb-4">
+                  O <span class="highlight">Julius Project</span> é um projeto
+                  de educação criado em 2022 em parceria com o projeto
+                  <a href="https://mais1code.com.br/" target="_blank"
+                    >Mais 1 Code</a
+                  >. Com o nossa presença nas redes sociais e nos sites, de uma
+                  forma descontraída levamos educação financeira para as pessoas
+                  que por falta dessa acabam ficando muito endividadas e não
+                  sabem administrar sua renda.
+                </p>
+                <p>
+                  Nosso projeto tem grande potencial para agregar valor nas
+                  vidas das pessoas que fazem parte do processo e das pessoas
+                  que são atraídas pelo nosso conteúdo.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li data-page-no="4">
+            <div class="mx-auto page-width-2">
+              <div class="row">
+                <div class="col-md-6 me-0 ms-auto">
+                  <h2 class="mb-4">Contato</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 tm-contact-left">
+                  <form action="#" method="POST" class="contact-form">
+                    <div class="input-group tm-mb-30">
+                      <input
+                        name="name"
+                        type="text"
+                        class="form-control rounded-0 border-top-0 border-end-0 border-start-0"
+                        placeholder="Nome"
+                      />
+                    </div>
+                    <div class="input-group tm-mb-30">
+                      <input
+                        name="email"
+                        type="text"
+                        class="form-control rounded-0 border-top-0 border-end-0 border-start-0"
+                        placeholder="Email"
+                      />
+                    </div>
+                    <div class="input-group tm-mb-30">
+                      <textarea
+                        rows="5"
+                        name="message"
+                        class="textarea form-control rounded-0 border-top-0 border-end-0 border-start-0"
+                        placeholder="Mensagem"
+                      ></textarea>
+                    </div>
+                    <div class="input-group justify-content-end">
+                      <input
+                        type="submit"
+                        class="btn btn-primary tm-btn-pad-2"
+                        value="Enviar"
+                      />
+                    </div>
+                  </form>
+                </div>
+                <div class="col-md-6 tm-contact-right">
+                  <p class="mb-4">
+                    Entre em contato conosco, segue nosso email e localização.
+                  </p>
+                  <div>
+                    Email:
+                    <a href="mailto:info@company.com" class="tm-link-white"
+                      >julius@project.com</a
+                    >
+                  </div>
+                  <!-- Map -->
+                  <div class="map-outer">
+                    <div class="gmap-canvas">
+                      <iframe
+                        width="100%"
+                        height="400"
+                        id="gmap-canvas"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29257.43468036828!2d-46.72535208531447!3d-23.562001793982684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5798cb16268f%3A0xa94014a3e39a3708!2sPinheiros%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1673191354633!5m2!1spt-BR!2sbr"
+                        frameborder="0"
+                        scrolling="no"
+                        marginheight="0"
+                        marginwidth="0"
+                      ></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
         </ul>
-      </nav>
-    </header>
+      </div>
+      <div class="container-fluid">
+        <footer class="row mx-auto tm-footer">
+          <div class="col-md-6 px-0">Copyright &copf; Julius Team 2022</div>
+          <div class="col-md-6 px-0 tm-footer-right">
+            Todos os direitos reservados
+          </div>
+        </footer>
+      </div>
+    </div>
 
-    <main>
-      <h1>Most Popular Browsers</h1>
-      <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
-
-      <article>
-        <h2>Google Chrome</h2>
-        <p>
-          Google Chrome é um navegador de internet desenvolvido pela Google,
-          lançado pela primeira vez em setembro de 2008, tem como motor de
-          renderização WebKit.
-        </p>
-      </article>
-
-      <article>
-        <h2>Mozilla Firefox</h2>
-        <p>
-          Browser Mozilla is an open-source web browser developed by Mozilla.
-          Firefox has been the second most popular web browser since January,
-          2018.
-        </p>
-      </article>
-
-      <article>
-        <h2>Microsoft Edge</h2>
-        <p>
-          Microsoft Edge is a web browser developed by Microsoft, released in
-          2015. Microsoft Edge replaced Internet Explorer.
-        </p>
-      </article>
-    </main>
-
-    <footer>
-      <p>Copyright &copf; Julius Team 2022 - Todos os direitos reservados</p>
-    </footer>
+    <footer></footer>
     <script src="js/jquery-3.6.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.js"></script>
