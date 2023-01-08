@@ -16,7 +16,7 @@ https://d1av.github.io/julius-landing-page/
 1. **Bootstrap**
 1. **Slick**
 
-## Setting up the local server
+## Abrindo o site em seu computador
 
 1. Usando [GIT](https://git-scm.com/), Copie o repositório com o commando:
 ```bash
