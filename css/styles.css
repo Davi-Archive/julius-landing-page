@@ -1,59 +1,77 @@
+html,
+body,
+.page-container {
+  height: 100%;
+}
+
 body {
-    margin: 0;
-    background-color: gainsboro;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  color: green;
+  line-height: 1.5;
+}
+
+a {
+  color: #9f6;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #3cf;
+}
+
+p {
+  line-height: 1.7;
+}
+
+h2 {
+  font-size: 1.8rem;
 }
 
 .logo {
-    font-size: 30px;
-    text-shadow: 1px 1px 0 gainsboro;
+  font-size: 30px;
+  text-shadow: 1px 1px 0 gainsboro;
 }
 
 header {
-    height: 88px;
-    background-color: #121214;
-    color: #737380;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 40px;
-    font-size: 20px;
-   
-    
+  height: 88px;
+  background-color: #121214;
+  color: #737380;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+  font-size: 20px;
 }
 
 .navbarContainer li {
-    width:auto;
-    height: auto;
-    padding: 10px 40px;
-    list-style: none;
-    font-weight: bold;
+  width: auto;
+  height: auto;
+  padding: 10px 40px;
+  list-style: none;
+  font-weight: bold;
 }
 
 .navbarContainer li:hover {
-    background-color: gainsboro;
-    border-radius: 5px;
-    transition: all .2s ease;
-    transition-duration: 0.2s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-    transition-property: all;
-    
-
-    
+  background-color: gainsboro;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: all;
 }
 
-.titulo{
-    background-color: blue;
+.titulo {
+  background-color: blue;
 }
 
-.navbarContainer{
-  
-
+.navbarContainer {
 }
 
-#navList{
- display: flex;
- flex-direction: row;
- 
+#navList {
+  display: flex;
+  flex-direction: row;
 }
