@@ -1,6 +1,6 @@
 # Julius Project Page
 
-Este repositorio tem como o objetivo apresentar o projeto Julius, com apoio da Mais1Code para os interessados
+Este repositório tem como o objetivo apresentar o projeto Julius, com apoio da Mais1Code para os interessados
 através de uma landing-page feita em html e css básico.
 
 # Esse site está ao vivo pelo link!
